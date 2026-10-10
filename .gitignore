@@ -1,0 +1,4 @@
+# the program files go to the GitHub releases, never into the repository
+*.exe
+*.zip
+SHA256SUMS.txt

@@ -1,0 +1,37 @@
+﻿PC Monitor - licencja freeware
+Copyright (c) 2026 Artur Słaboszewski (https://melma.pl). Wszelkie prawa zastrzeżone.
+
+PC Monitor ("Program") jest programem bezpłatnym (freeware). Instalując, kopiując lub używając Programu, akceptujesz tę licencję. Jeśli jej nie akceptujesz, nie instaluj Programu i nie używaj go.
+
+1. Udzielenie licencji
+Możesz bezpłatnie instalować i używać Programu na dowolnej liczbie komputerów, w celach prywatnych i komercyjnych.
+
+2. Rozpowszechnianie
+Kopie Programu możesz przekazywać innym wyłącznie:
+a) w postaci niezmienionej i kompletnej, tak jak opublikował je autor (instalator lub pakiet portable, wraz z tą licencją i informacjami o komponentach zewnętrznych);
+b) bezpłatnie. Nie możesz sprzedawać ani wynajmować Programu ani dołączać go do płatnego produktu lub usługi bez pisemnej zgody autora.
+Odnośnik do oficjalnej strony pobierania (https://tools.melma.pl/pc-monitor/) jest zawsze mile widziany.
+
+3. Ograniczenia
+Nie możesz modyfikować, tłumaczyć, dekompilować, deasemblować ani w inny sposób odtwarzać kodu Programu, ani tworzyć na jego podstawie utworów zależnych, z wyjątkiem sytuacji, w których obowiązujące prawo wyraźnie na to pozwala mimo tego zastrzeżenia. Nie możesz usuwać ani zmieniać informacji o prawach autorskich.
+
+4. Prawa autorskie
+Program jest licencjonowany, a nie sprzedawany. Wszelkie prawa do Programu, w tym do jego kodu źródłowego, który nie jest publikowany, należą do autora.
+
+5. Twoje dane i prywatność
+Program zapisuje pomiary komputera wyłącznie na tym komputerze. Nigdzie ich nie wysyła, nie zbiera telemetrii, a jego panel jest dostępny tylko z tego samego komputera (127.0.0.1). Pomiar jakości sieci wysyła pingi do routera i do adresu ustawionego w ustawieniach.
+
+6. Komponenty zewnętrzne
+Program zawiera komponenty innych autorów (m.in. Python, psutil, Pillow, pystray, nvidia-ml-py i six), które podlegają własnym licencjom, wymienionym w pliku THIRD-PARTY-NOTICES.md i w folderze licenses. Ta licencja nie ogranicza praw, które dają Ci tamte licencje; w szczególności możesz zastąpić bibliotekę pystray, rozpowszechnianą na licencji GNU LGPL v3, jej zmodyfikowaną wersją.
+
+7. Brak gwarancji
+Program jest udostępniany w stanie, w jakim jest ("as is"), bez jakichkolwiek gwarancji, wyraźnych ani dorozumianych, w tym przydatności do określonego celu. Podawane zużycie energii i koszty są szacunkami i mogą różnić się od rzeczywistych.
+
+8. Ograniczenie odpowiedzialności
+W najszerszym zakresie dopuszczalnym przez prawo autor nie odpowiada za szkody wynikłe z używania Programu lub niemożności jego używania, w tym za utratę danych lub korzyści. Nie ogranicza to odpowiedzialności, której prawo nie pozwala wyłączyć, w szczególności za szkodę wyrządzoną umyślnie.
+
+9. Wygaśnięcie
+Licencja wygasa automatycznie w razie jej naruszenia. Należy wtedy przestać używać Programu i usunąć jego kopie.
+
+10. Prawo właściwe
+Licencja podlega prawu polskiemu. Bezwzględnie obowiązujące przepisy o ochronie konsumentów kraju użytkownika pozostają nienaruszone. Wersja polska i angielska (LICENSE.txt) mają to samo znaczenie; w razie wątpliwości rozstrzyga wersja polska.

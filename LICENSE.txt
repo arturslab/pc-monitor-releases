@@ -1,0 +1,37 @@
+﻿PC Monitor - Freeware Licence
+Copyright (c) 2026 Artur Słaboszewski (https://melma.pl). All rights reserved.
+
+PC Monitor ("the Software") is freeware. By installing, copying or using the Software you accept this licence. If you do not accept it, do not install or use the Software.
+
+1. Licence grant
+You may install and use the Software free of charge, on any number of computers, for private and commercial purposes.
+
+2. Redistribution
+You may pass on copies of the Software only:
+a) unmodified and complete, as published by the author (the installer or the portable package, with this licence and the third-party notices);
+b) free of charge. You may not sell the Software, rent it, or include it in a paid product or service without the author's written permission.
+Linking to the official download page (https://tools.melma.pl/pc-monitor/) is always welcome.
+
+3. Restrictions
+You may not modify, translate, decompile, disassemble or otherwise reverse engineer the Software, nor create derivative works based on it, except where applicable law expressly permits this despite this restriction. You may not remove or change the copyright notices of the Software.
+
+4. Ownership
+The Software is licensed, not sold. The author keeps all rights, title and interest in the Software, including its source code, which is not published.
+
+5. Your data and privacy
+The Software records the measurements of your computer only on your computer. It does not send them anywhere, collects no telemetry, and its dashboard is reachable only from the same computer (127.0.0.1). The network quality measurement sends pings to your router and to the address set in the settings.
+
+6. Third-party components
+The Software includes third-party components (among them Python, psutil, Pillow, pystray, nvidia-ml-py and six), which remain under their own licences, listed in THIRD-PARTY-NOTICES.md and in the licenses folder. Nothing in this licence limits the rights those licences give you; in particular you may replace the pystray library, distributed under the GNU LGPL v3, with a modified version.
+
+7. No warranty
+The Software is provided "as is", without any warranty, express or implied, including fitness for a particular purpose. Its energy and cost figures are estimates and may differ from the real consumption.
+
+8. Limitation of liability
+To the maximum extent permitted by applicable law, the author is not liable for any damage arising from the use of, or the inability to use, the Software, including loss of data or profit. This does not limit liability that cannot be excluded by law, in particular for damage caused intentionally.
+
+9. Termination
+This licence ends automatically if you breach it. You must then stop using the Software and delete your copies.
+
+10. Governing law
+This licence is governed by Polish law. Mandatory consumer protection laws of your country remain unaffected. The Polish version (LICENCJA.txt) and this English version have the same meaning; in case of doubt the Polish version prevails.
