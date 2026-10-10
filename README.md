@@ -2,7 +2,7 @@
 
 # PC Monitor
 
-![version](https://img.shields.io/badge/version-v1.14.0-blue?style=flat)
+![version](https://img.shields.io/badge/version-v1.14.1-blue?style=flat)
 ![Platform](https://img.shields.io/badge/platform-Windows%2010%20%7C%2011%20x64-0078d4)
 ![Licence](https://img.shields.io/badge/licence-freeware-34d399)
 
@@ -55,7 +55,7 @@ it learns the draw of the rest of the hardware, which makes the wall estimate ac
 "More info" and "Run anyway". You can check a file first against `SHA256SUMS.txt` of its release:
 
 ```powershell
-Get-FileHash .\PC-Monitor-Setup-1.14.0.exe -Algorithm SHA256
+Get-FileHash .\PC-Monitor-Setup-1.14.1.exe -Algorithm SHA256
 ```
 
 **More sensors (optional):** CPU temperature and fans need a kernel driver, so PC Monitor reads them from

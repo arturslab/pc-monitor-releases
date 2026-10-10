@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.14.1 - 2026-10-10
+
+- The values of the tiles always fit in their tiles: all seven tiles in one row from a 1450 px wide window (4 + 3
+  below), the forecast shows its change in brackets, the idle row its time (its cost is in the tip of the tile).
+- The values next to the cursor on the other charts stay inside their charts, long lines wrap.
+- Ranges longer than two months show months in the chart heads, so the titles of narrow cards are not cut.
+- A hint no longer appears after the mouse has moved on, and no hint covers the tooltip of a chart.
+- After a quick change of the period (or a note added just before it) the dashboard always shows the latest period.
+- New screenshots.
+
 ## 1.14.0 - 2026-10-10
 
 The first public release.
