@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.14.2 - 2026-10-13
+
+- The Wi-Fi signal is now optional and off by default (Settings, Measurements). Windows 11 counts every reading of the
+  Wi-Fi connection as a use of the location, because the answer also holds the network name and the access point
+  address, and kept showing "location used by PC Monitor". PC Monitor never read or stored your location; with the
+  option off it does not ask the Wi-Fi service at all. Traffic, ping and lost pings are measured as before.
+
 ## 1.14.1 - 2026-10-10
 
 - The values of the tiles always fit in their tiles: all seven tiles in one row from a 1450 px wide window (4 + 3

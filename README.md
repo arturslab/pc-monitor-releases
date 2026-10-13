@@ -2,7 +2,7 @@
 
 # PC Monitor
 
-![version](https://img.shields.io/badge/version-v1.14.1-blue?style=flat)
+![version](https://img.shields.io/badge/version-v1.14.2-blue?style=flat)
 ![Platform](https://img.shields.io/badge/platform-Windows%2010%20%7C%2011%20x64-0078d4)
 ![Licence](https://img.shields.io/badge/licence-freeware-34d399)
 
@@ -19,7 +19,7 @@ local dashboard in your browser: from the last five minutes to a whole year.
 
 - **Recording in the background, no administrator rights.** A reading every 2 seconds: CPU (load, power, clock,
   limits), NVIDIA GPU (load, temperature, power, VRAM, why its clock is held down), RAM, page file, disks and their
-  temperatures, Wi-Fi and ping, battery. Starts with Windows and lives in the notification area.
+  temperatures, Wi-Fi traffic and ping, battery. Starts with Windows and lives in the notification area.
 - **Charts from five minutes to a year.** Step through the history, compare with the previous period, enlarge a
   chart, hover to see the values on every chart at once.
 - **Energy and cost.** kWh and money for today, the month and the year, a forecast for the month, the energy of each
@@ -55,7 +55,7 @@ it learns the draw of the rest of the hardware, which makes the wall estimate ac
 "More info" and "Run anyway". You can check a file first against `SHA256SUMS.txt` of its release:
 
 ```powershell
-Get-FileHash .\PC-Monitor-Setup-1.14.1.exe -Algorithm SHA256
+Get-FileHash .\PC-Monitor-Setup-1.14.2.exe -Algorithm SHA256
 ```
 
 **More sensors (optional):** CPU temperature and fans need a kernel driver, so PC Monitor reads them from
@@ -69,6 +69,9 @@ Remote Web Server on. Deny its firewall prompt and turn on its authentication.
   rebinding.
 - No administrator rights and no drivers of its own.
 - The network quality measurement pings your router and the address set in the settings (1.1.1.1 by default).
+- The Wi-Fi signal is off by default: Windows counts every reading of the Wi-Fi connection as a use of the location
+  (its answer also holds the network name), so with it on Windows shows "location used by PC Monitor". PC Monitor
+  keeps only the signal quality and never reads your location. Turn it on in Settings, Measurements.
 
 ## How the power from the wall is estimated
 
